@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-left: 160px;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    height: 38px;
+    margin-bottom: 20px;
+
+
+}
+
+h1 {
+    font-size: 26px;
+    margin: auto;
+    color: white;
+    text-align: center;
+
+
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 0 20px;
+    background-color: beige;
+}
+
+
+
+h2 {
+    font-size: 24px;
+    padding-bottom: 12px;
+    color: red;
+    text-align: center;
+}
+
+.form-campo {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    flex: 20%;
+
+}
+
+.form-campo input {
+    flex: 80%;
+    display: block;
+    padding: 8px;
+    margin-left: 1px;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 190px;
+    /* Move o container para baixo para dar espaço ao botão */
+}
+
+button {
+    display: block;
+    width: 120px;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    position: absolute;
+    right: 85%;
+
+}
